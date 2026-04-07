@@ -81,15 +81,17 @@ def calculate_rag(budget_variance_pct, schedule_variance_days, risk_score):
 ---
 
 ## Project Structurepmo-governance-dashboard/
+```
+pmo-governance-dashboard/
 ├── data/
-│   ├── projects.csv               # 20 sample projects
-│   └── milestones.csv             # 80 milestone records
+│   ├── projects.csv
+│   └── milestones.csv
 ├── pipeline/
-│   ├── rag_calculator.py          # Automated RAG status engine
-│   ├── variance_analysis.py       # Budget and schedule variance
-│   └── dashboard_data_prep.py     # Excel + Power BI output generator
+│   ├── rag_calculator.py
+│   ├── variance_analysis.py
+│   └── dashboard_data_prep.py
 ├── sql/
-│   └── pmo_queries.sql            # 8 governance queries
+│   └── pmo_queries.sql
 ├── outputs/
 │   ├── weekly_governance_pack.xlsx
 │   ├── variance_analysis.csv
@@ -97,9 +99,11 @@ def calculate_rag(budget_variance_pct, schedule_variance_days, risk_score):
 ├── screenshots/
 │   └── pmo_dashboard_output.png
 ├── tests/
-│   └── test_rag_calculator.py     # 12 unit tests
+│   └── test_rag_calculator.py
+├── .gitignore
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
